@@ -1,6 +1,5 @@
 package main;
 import java.util.*; 
-
 public class Calculator {
     public static void main(String[] args)
     {
@@ -13,7 +12,7 @@ public class Calculator {
         System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
         int choose;
         choose = inp.nextInt();
-        switch (choose){
+        switch(choose){
         case 1:
             System.out.println(add( num1,num2));
             break;
@@ -39,26 +38,29 @@ public class Calculator {
     {
     	int result=0;
 //        write your code here 
-    	
-        return result;
+    	return result=x+y;
+        
     }
     public static int sub(int x, int y)
     {
     	int result=0;
 //        write your code here
-        return result;
+    	return result=x-y;
+      
     }
     public static int mult(int x, int y)
     {
     	int result=0;
-//      write your code here        
-    	return result;
+//      write your code here 
+    	return result=x*y;
+    	
     }
     public static int div(int x, int y)
     {
     	int result=0;
 //      write your code here
-    	return result;
+    	return result=x/y;
+    	
     }
 
 }
